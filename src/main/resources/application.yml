@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: <insert_client_id_here>
+            client-secret: <insert_client_id_here>
+          okta:
+            client-id: <insert_client_id_here>
+            client-secret: <insert_client_secret_here>
+        provider:
+          okta:
+            issuer-uri: https://dev-845041.oktapreview.com/oauth2/default
+
